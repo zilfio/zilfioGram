@@ -13,9 +13,9 @@
                 <div class="pr-5"><strong>23k</strong> followers</div>
                 <div class="pr-5"><strong>212</strong> following</div>
             </div>
-            <div class="pt-5 font-weight-bold">zilfio.it</div>
-            <div>description</div>
-            <div><a href="#">www.zilfio.it</a></div>
+            <div class="pt-5 font-weight-bold">{{ $user->profile->title }}</div>
+            <div>{{ $user->profile->description }}</div>
+            <div><a href="#">{{ $user->profile->url }}</a></div>
         </div>
     </div>
     <div class="row pt-5">
